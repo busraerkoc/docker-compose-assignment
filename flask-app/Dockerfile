@@ -2,8 +2,6 @@ FROM python:3.7.1
 
 RUN git clone https://github.com/Sysnove/flask-hello-world.git
 
-RUN apt-get update
-
 RUN pip install Flask
 
 WORKDIR /flask-hello-world 
